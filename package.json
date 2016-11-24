@@ -1,0 +1,16 @@
+{
+  "main": "./index.js",
+  "name": "single-ut",
+  "version": "0.0.0",
+  "description": "run ut for mocha with webpack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawrencebla/single-ut-atom"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+    "mocha-webpack": "0.7.0"
+  }
+}

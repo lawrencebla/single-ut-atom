@@ -1,0 +1,10 @@
+'menu': [
+  'label': 'Packages'
+  'submenu': [
+    'label': 'Single UT'
+    'submenu': [
+      'label': 'Single UT'
+      'command': 'single-ut:start'
+    ]
+  ]
+]
