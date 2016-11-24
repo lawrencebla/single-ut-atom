@@ -1,7 +1,7 @@
 {
   "main": "./index.js",
   "name": "single-ut",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "run ut for mocha with webpack",
   "repository": {
     "type": "git",
