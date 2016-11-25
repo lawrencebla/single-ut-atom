@@ -36,11 +36,10 @@ function findProjectPath(currentPath) {
 
 function start(editor) {
 
-  console.log(editor.getPath());
   let projectPath = findProjectPath(editor.getPath());
   let webpackTestConfigPath = path.join(projectPath, 'webpac-single-ut.config.js');
   let modulesPath = path.join(projectPath, 'node_modules');
-  let mochaWebpackPath = path.join(modulesPath, '.bin/mocha-webpack');
+  let mochaWebpackPath = path.join(__dirname, 'node_modules/.bin/mocha-webpack');
 
   fs.writeFile(batPath, `
     set Path=${projectPath};%Path%

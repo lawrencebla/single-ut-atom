@@ -1,3 +1,10 @@
+'context-menu':
+  'atom-workspace atom-text-editor:not(.mini)': [
+    {label: 'Single UT Start', command: 'single-ut:start'}
+  ]
+  '.tree-view .file > .name': [
+    {label: 'Single UT Start', command: 'single-ut:start'}
+  ]
 'menu': [
   'label': 'Packages'
   'submenu': [
