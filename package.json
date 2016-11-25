@@ -1,16 +1,61 @@
 {
-  "main": "./index.js",
-  "name": "single-ut",
-  "version": "0.1.0",
-  "description": "run ut for mocha with webpack",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lawrencebla/single-ut-atom"
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\d-1161024-8732-1czss36\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\d-1161024-8732-1czss36\\package.tgz",
+        "spec": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\d-1161024-8732-1czss36\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\apm-install-dir-1161024-8732-zd96bf"
+    ]
+  ],
+  "_from": "..\\d-1161024-8732-1czss36\\package.tgz",
+  "_id": "single-ut@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/single-ut",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\d-1161024-8732-1czss36\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\d-1161024-8732-1czss36\\package.tgz",
+    "spec": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\d-1161024-8732-1czss36\\package.tgz",
+    "type": "local"
   },
-  "engines": {
-    "atom": "*"
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1161024-8732-1czss36\\package.tgz",
+  "_shasum": "f88509a796878b0b1f0daa206c9de214f493b9be",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\d-1161024-8732-1czss36\\package.tgz",
+  "_where": "C:\\Users\\SESA37~1\\AppData\\Local\\Temp\\apm-install-dir-1161024-8732-zd96bf",
+  "bugs": {
+    "url": "https://github.com/lawrencebla/single-ut-atom/issues"
   },
   "dependencies": {
     "mocha-webpack": "0.7.0"
-  }
+  },
+  "description": "run ut for mocha with webpack",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/lawrencebla/single-ut-atom#readme",
+  "main": "./index.js",
+  "name": "single-ut",
+  "optionalDependencies": {},
+  "readme": "#基于mocha-webpack运行当前文件UT\n\n**webpack配置写在项目根目录的webpac-single-ut.config.js文件中。**\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawrencebla/single-ut-atom.git"
+  },
+  "version": "0.1.1"
 }
